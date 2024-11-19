@@ -1,6 +1,5 @@
 # Banking Management System
 ### Problem Statement
-<hr>
 JP Morgan Chase Bank is a leading global financial institution. It faces 
 challenges in managing its vast and diverse customer base, complex 
 transactions, and extensive branch operations. The current system lacks the 
