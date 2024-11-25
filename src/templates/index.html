@@ -1,7 +1,35 @@
-{%extends 'nav.html'%}
- {%block head%}
- <title>Home</title>
- {% endblock %}
+{% extends 'nav.html' %}
+{% block head %}
+    <title>Chase Bank</title>
+{% endblock %}
 {% block content %}
-{#    <h1>Hello</h1>#}
+    <div class="abc" style="height: 30rem; background: #286FBF; position: relative">
+    <!--    <h2 style="color: white; margin-left: 100px; padding-top: 100px; font-size: 2rem;">
+            New Chase<br> checking customers
+        </h2>
+        <br>
+        <button style="margin-left: 100px; background: #298500; border: none; color: white; padding: 0.5em; border-radius: .313em;">
+            Open an account
+        </button> -->
+        <form style="background: #fff; padding: 2rem; border-radius: 8px;  width: 300px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            <h2 style="margin-bottom: 1rem;">Welcome</h2>
+            <div style="margin-bottom: 1rem;">
+                <label for="username" style="display: block; text-align: left; margin-bottom: 0.5rem;">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required
+                       style="width: 100%; padding: 0.5rem 0; border: none; border-bottom: 2px solid #ccc; outline: none; background: none;">
+            </div>
+            <div style="margin-bottom: 1rem;">
+                <label for="password" style="display: block; text-align: left; margin-bottom: 0.5rem;">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required
+                       style="width: 100%; padding: 0.5rem 0; border: none; border-bottom: 2px solid #ccc; outline: none; background: none;">
+            </div>
+            <button type="submit"
+                    style="width: 100%; padding: 0.5rem; background: #286FBF; color: #fff; border: none; border-radius: 4px; cursor: pointer;">
+                Login
+            </button>
+            <div style="margin-top: 1rem;">
+                <a href="#" style="color: #286FBF; text-decoration: none;">Forgot Password/Username?</a>
+            </div>
+        </form>
+    </div>
 {% endblock %}
